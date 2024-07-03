@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-Forms</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <form action="/" method="get">
-        <label for="give a name">your name</label>
-   <input type="text" name="user-name" id="give a name"> 
-   <button>Submit</button>
-</form>
-</body>
+      <label for="username">your name</label>
+      <input type="text" name="user-name" id="username" />
+      <label for="username">your email adress</label>
+      <input type="email" name="user-email" id="useremail" />
+      <label for="userage">your age</label>
+      <input type="number" step="1" name="user-age" id="userage" />
+      <label for="userpassword">your password</label>
+      <input type="password" name="user-password" id="userpassword" />
+      <label for="birthdate">date of birth</label>
+      <input type="date" name="user-birthdate" id="birthdate">
+      <button>Submit</button>
+    </form>
+  </body>
 </html>
